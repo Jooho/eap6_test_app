@@ -8,7 +8,8 @@ pushd ${HOME} >/dev/null
 	echo "JHOUSE-DEBUG1"
 #	    tar cf - ./.m2 ./source/target
 	echo "JHOUSE-DEBUG2"
-    tar cf - ./.m2
+	cd ${HOME}
+    tar cf - .m2
 
 
 popd >/dev/null
